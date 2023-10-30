@@ -1,54 +1,53 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #FFDDC1, #FFC3A0, #FFB184);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
 .container {
     max-width: 400px;
-    margin: 0 auto;
-    background-color: #f8f8f8; /* Very light gray background */
+    background-color: #F7F7F7;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-h1 {
-    margin: 0; /* Remove default margin */
-    font-size: 16px; /* Smaller font size for name */
+.title {
+    margin: 0;
+    font-size: 18px;
+    color: #333333; /* Dark gray font color */
 }
-
-h2 {
-    font-size: 24px; /* Bigger font size for title */
-    margin-top: 10px; /* Add some margin above the title */
+.subtitle {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #444444; /* Slightly lighter gray font color */
 }
-
 form {
     display: flex;
     flex-direction: column;
 }
-
 .form-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-
 label {
     font-weight: bold;
     width: 50%;
+    color: #555555; /* Light gray font color */
 }
-
 input {
-    padding: 5px;
+    padding: 8px;
     width: 50%;
 }
-
 input[type="range"] {
     width: 100%;
-    background-color: #000; /* Black color for the slider */
+    background-color: #D3D3D3;
 }
-
 input[disabled] {
-    background-color: #f0f0f0;
+    background-color: #F5F5F5;
 }
